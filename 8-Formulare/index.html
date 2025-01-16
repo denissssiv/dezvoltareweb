@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+
+<body>
+    <center>
+        <h1>Formulare</h1>
+    </center>
+
+
+    <form>
+        <label for="nume">Nume Prenume</label><br />
+        <input type="text" id="nume" required autocomplete="on" />
+
+        <br /><br />
+        <input type="password" placeholder="Parola" required />
+        <br /><br />
+
+        <label for="zi">Ziua de Nastere</label> <br/>
+        <input type="date" required max="2020-04-01" min="1900-01-01" />
+        <br /><br />
+
+        <input type="checkbox" required /> Sunt deacord cu regulile siteu-lui
+        <br /><br />
+
+        <input type="radio" name="pachet" id="pro" /> <label for="pro">PRO</label>
+        <input type="radio" checked name="pachet" id="basic" /> <label for="basic">BASIC</label>
+        <br /><br />
+
+        <label for="fisier"><i><u><b>Apasă aici și alege un fișier!</b></u></i></label>
+        <input hidden id="fisier" type="file" accept=".docx, .pdf, .xlsx" />
+        <br /><br />
+
+        <input type="submit" Value="Transmite"  />
+        
+        <label>Lasa un mesaj</label><br/>
+       <textarea rows="7" cols="25" placeholder="Culege mesajul"></textarea>
+        
+        <br /><br />
+
+
+    </form>
+</body>
+
+</html>
