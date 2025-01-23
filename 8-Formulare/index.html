@@ -14,13 +14,13 @@
 
     <form>
         <label for="nume">Nume Prenume</label><br />
-        <input type="text" id="nume" required autocomplete="on" />
+        <input type="text" id="nume" size="10" required autocomplete="on" />
 
         <br /><br />
-        <input type="password" placeholder="Parola" required />
+        <input type="password" placeholder="Parola" maxlength="10" minlength="3" required />
         <br /><br />
 
-        <label for="zi">Ziua de Nastere</label> <br/>
+        <label for="zi">Ziua de Nastere</label> <br />
         <input type="date" required max="2020-04-01" min="1900-01-01" />
         <br /><br />
 
@@ -35,13 +35,21 @@
         <input hidden id="fisier" type="file" accept=".docx, .pdf, .xlsx" />
         <br /><br />
 
-        <input type="submit" Value="Transmite"  />
-        
-        <label>Lasa un mesaj</label><br/>
-       <textarea rows="7" cols="25" placeholder="Culege mesajul"></textarea>
-        
-        <br /><br />
+        <input type="submit" Value="Transmite" />
 
+        <label>Lasa un mesaj</label><br />
+        <textarea rows="7" cols="25" placeholder="Culege mesajul"></textarea>
+
+        <br /><br />
+        <label>Alege Treapta de studii</label>
+        <select>
+            <option>Gimnaziu</option>
+            <option selected>Liceu</option>
+            <option>Universitate</option>
+        </select>
+
+        <br />
+        <br />
 
     </form>
 </body>

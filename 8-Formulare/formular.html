@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+</head>
+<body>
+    <form action="https://sheetdb.io/api/v1/rqcte1crwy991" method="post" autocomplete="on">
+
+        <fieldset>
+            <legend>Datele Contului</legend>
+        <label for="username">Username</label><br />
+        <input type="text" id="username" name="data[username]" maxlength="12" required  />
+        <br /><br />
+        <label for="email">Email</label><br />
+        <input type="email"  id="email" name="data[email]"  minlength="3" required />
+        <br /><br />
+        <label for="password">Parola</label><br />
+        <input type="password" maxlength="10" name="data[parola]" minlength="3" required />
+
+    </fieldset>
+    <fieldset>
+        <legend>Datele Personale</legend>
+        <label for="name">Nume Prenume</label><br />
+        <input type="text" id="name" name="data[nume]"  required  />
+        <br /><br />
+        <label for="address">Adresa</label><br />
+        <input type="text" id="address" name="data[adresa]" required  />
+        <br /><br />
+        <label>Tara</label>
+        <select name="data[tara]">
+            <option>Romania</option>
+            <option selected>Moldova</option>
+            <option>Ucraina</option>
+        </select>
+        <br/><br/>
+        <input type="submit" Value="Transmite" />
+    </fieldset>
+    </form>
+</body>
+</html>
