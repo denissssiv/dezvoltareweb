@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Onest:wght@100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+h1 {
+    color:darkblue;
+    text-align: center;
+    text-decoration: underline dotted teal 6px; /* dotted, dashed, solid */
+
+    text-transform: capitalize; /* lowercase uppercase capitalize */
+    /*text-shadow: 4px 2px 5px; */
+
+    font-style: italic;
+    font-weight: 600; /* 100%; 200,300,500; 42px */
+    font-family: 'Rubik';
+}
+
+p {
+    color:rgb(23, 199, 230);
+    text-indent: 20px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    line-height: 120%;
+    font-size: 18px;
+
+    font-family: 'Onest';
+}
